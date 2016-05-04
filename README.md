@@ -1,2 +1,15 @@
 # PXJNotificationTimeOut
 全局session提醒，在一定的时间内没有操作app，则可以做出相应的处理(例如为app添加手势锁等)
+
+
+NotificationTimeOut_Swift是Swift的demo
+NotificationTimeOut_OC是Objective-c的demo
+
+
+Objective-c中把NSNotificationTimeOut文件夹中的.m与.h文件导入到工程中，并在AppDelegate.h与AppDelegate.m文件中做相应设置即可
+其中:
+
++ (void)doSomethingForTimeOut函数可以用于添加你想要的处理，例如手势锁或者任何输出处理
+
+
+Swift版本的使用请参照Objective-c
